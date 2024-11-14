@@ -3,22 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--The meta tag makes the site responsive-->
     <title>Portfolio</title>
+
     <link rel="stylesheet" href="styles/style.css">
+    <!--The link tag links the style files into the html file-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--The preconnect is used for performance optimization, it tells the browser to connect with google fonts ahead of time, so it loads faster when needed-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- The crossorigin attribute allows the browser to handle cross-origin requests properly -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- This links with the font font-awesome library hosted online which let's us use the the icons and loads the entire collection of icons  -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- it links the google fonts and imports the Poppins font to the page, it ensures the font is loaded from google servers -->
 </head>
+
+
 <body class="main-content">
     <header class="section sec1 header active">
-
+<!-- The header tag contains introductory content or navigation links -->
     </header>
-    <main>
+
+
+    <main> 
+        <!-- The main tag is the primary content of the page, it holds the main sections of the Portfolio -->
         <section class="section sec2 about"></section>
         <section class="section sec3 Portfolio"></section>
         <section class="section sec4 blogs"></section>
         <section class="section sec5 contact"></section>
     </main>
+
+    <div class="controls">
+        <div class="control control-1 active-btn">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control control-2 " data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control control-3 "data-id="Portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control control-4 "data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control control-5 "data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
 </body>
 </html>
