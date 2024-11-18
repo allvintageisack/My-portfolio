@@ -12,6 +12,27 @@ function pageTransitions(){
         this.className += 'active-btn';
     })
    } 
+
+   //section active class
+   allSections.addEventListener('click' , (e) =>{
+    const id = e.target.dataset.id;
+    if(id){
+        //removes selected from other buttons
+
+        sectBtn.forEach((btn) =>{
+            btn.classList.remove('active')
+        })
+        e.target.classList.add('active')
+
+        //hide from other sections
+        sections.forEach((section)=>{
+            section.classList.remove('active')
+        })
+
+        const element = document.getElementById(id);
+        element.classList.add('active');
+    }
+   })
 }
 
 pageTransitions();
