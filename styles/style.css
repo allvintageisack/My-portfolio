@@ -88,6 +88,10 @@ section {
   background-color: rgb(205, 90, 190);
 }
 
+.active {
+  display: block;
+}
+
 .controls {
   position: fixed;
   z-index: 10;
