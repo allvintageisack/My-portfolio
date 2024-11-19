@@ -6,21 +6,21 @@ const allSections= document.querySelector('.main-content');
 function pageTransitions(){
     //button click active class
    for(let i = 0; i < sectBtn.length; i++){
-    sectBtn[i].addEventListener('click', function(){
+       sectBtn[i].addEventListener('click', function(){
         let currentBtn = document.querySelectorAll('.active-btn');
         currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
-        this.className += 'active-btn';
-    })
-   } 
+        this.className += ' active-btn';
+    });
+    } 
 
    //section active class
-   allSections.addEventListener('click' , (e) =>{
-    const id = e.target.dataset.id;
-    if(id){
+   allSections.addEventListener('click', (e) =>{
+        const id = e.target.dataset.id;
+        if(id){
         //removes selected from other buttons
 
-        sectBtn.forEach((btn) =>{
-            btn.classList.remove('active')
+            sectBtn.forEach((btn) =>{
+                btn.classList.remove('active')
         })
         e.target.classList.add('active')
 
