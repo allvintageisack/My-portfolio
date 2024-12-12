@@ -210,7 +210,7 @@ section {
   font-weight: 700;
   color: var(--color-red);
 }
-.about-container .right-about .about-item .abt-text .small-text {
+.about-container .right-about .about-item .abt-text .Small-text {
   padding-left: 3rem;
   position: relative;
   text-transform: uppercase;
@@ -218,7 +218,7 @@ section {
   color: var(--color-grey-1);
   letter-spacing: 2px;
 }
-.about-container .right-about .about-item .abt-text .small-text::before {
+.about-container .right-about .about-item .abt-text .Small-text::before {
   content: "";
   position: absolute;
   left: 0;
