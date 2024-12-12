@@ -292,6 +292,34 @@ section{
                 background-color: var(--color-grey-4);
                 margin-left: 1rem;
                 position: relative;
+                span{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    background-color: var(--color-red);
+                    transition: all .4s ease-in-out;
+                    width: 80%;
+                }
+
+                .html{
+                    width: 90%;
+                }
+                .css{
+                    width: 90%;
+                }
+                .Javascript{
+                    width: 78%;
+                }
+                .Git{
+                    width: 100%;
+                }
+                .BuildingAPIs{
+                    width: 90%;
+                }
+                .angular{
+                    width: 60%;
+                }
             }
         }
     }
