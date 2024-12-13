@@ -286,6 +286,15 @@ section {
   width: 90%;
 }
 .about-stats .progress-bars .progress-con .progress .Javascript {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-con .progress .reactjs {
+  width: 90%;
+}
+.about-stats .progress-bars .progress-con .progress .Nodejs {
+  width: 84%;
+}
+.about-stats .progress-bars .progress-con .progress .python {
   width: 78%;
 }
 .about-stats .progress-bars .progress-con .progress .Git {
