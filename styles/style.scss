@@ -320,9 +320,6 @@ section{
                 .python{
                     width: 78%;
                 }
-                .Git{
-                    width: 100%;
-                }
                 .BuildingAPIs{
                     width: 90%;
                 }
@@ -331,6 +328,22 @@ section{
                 }
             }
         }
+    }
+}
+.stat-title{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 3.5rem 0;
+    position: relative;
+    &::before{
+        content: '';
+        left: 50%;
+        top: 0%;
+        width: 40%;
+        height: 1px;
+        background-color: var(--color-grey-5);
+        transform: translateX(-50%);
     }
 }
 /*components*/
