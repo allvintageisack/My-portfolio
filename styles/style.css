@@ -303,6 +303,9 @@ section {
 .about-stats .progress-bars .progress-con .progress .angular {
   width: 60%;
 }
+.about-stats .progress-bars .progress-con .progress .WordPress {
+  width: 90%;
+}
 
 .stat-title {
   text-transform: uppercase;
