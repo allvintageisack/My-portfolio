@@ -391,6 +391,17 @@ section{
     }
 }
 
+//portfolios//
+.port-text{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.portfolios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 /*components*/
 .btn-con{
     display: flex;
